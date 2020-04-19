@@ -1,0 +1,32 @@
+{
+    "manifest_version": 2,
+    "name": "Hypermethod Extender",
+    "version": "1.0.0",
+    "description": "this extension adds some functionality to learn.urfu.ru",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://learn.urfu.ru/subject/index/*",
+                "https://learn.urfu.ru/subject/index/*",
+                "https://learn.urfu.ru/subject/badge/index/*",
+                "https://learn.urfu.ru/resource/index/index/*",
+                "https://learn.urfu.ru/subject/materials/index/*",
+                "https://learn.urfu.ru/news/index/index/*",
+                "https://learn.urfu.ru/forum/subject/*",
+                "https://learn.urfu.ru/blog/index/index/*",
+                "https://learn.urfu.ru/wiki/index/*",
+                "https://learn.urfu.ru/chat/index/index/*",
+                "https://learn.urfu.ru/message/contact/index/*",
+                "https://learn.urfu.ru/message/view/index/*",
+                "https://learn.urfu.ru/storage/index/index/*",
+                "https://learn.urfu.ru/subject/materials/index/*",
+                "https://learn.urfu.ru/lesson/list/my/*",
+                "https://learn.urfu.ru/subject/mark/history/*",
+                "https://learn.urfu.ru/interview/index/index/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+      ]
+}
